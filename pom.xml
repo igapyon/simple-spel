@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>jp.igapyon</groupId>
+	<artifactId>simple-spel</artifactId>
+	<version>0.1.0</version>
+	<name>simple-spel</name>
+	<description>Simple SpEL sample.</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-expression -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>5.2.6.RELEASE</version>
+		</dependency>
+	</dependencies>
+
+
+	<!-- ref: https://maven.apache.org/pom.html#Developers -->
+	<developers>
+		<developer>
+			<id>igapyon</id>
+			<name>Toshiki Iga</name>
+			<email>igapyon@gmail.com</email>
+			<url>http://www.igapyon.jp/</url>
+			<roles>
+				<role>lead</role>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>-9</timezone>
+			<properties>
+				<picUrl>http://www.igapyon.jp/igapyon/diary/images/iga200306.jpg</picUrl>
+			</properties>
+		</developer>
+	</developers>
+
+</project>
